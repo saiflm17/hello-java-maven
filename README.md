@@ -58,3 +58,5 @@
 - java/Maven projects deployed in TOMCAT application server .
 
 - And artifacts stored in NEXUS REPOSITORY .
+
+- Artifacts means war, ear, jar files .
