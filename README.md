@@ -6,7 +6,7 @@
 
 - COMMAND : sudo -i - To change the root user .
 
-- #STEP-3:- am installing jenkins. so jenkins before am installing java-17 version because of jenkins dependency java so am installing java-17 version.
+#STEP-3:- am installing jenkins. so jenkins before am installing java-17 version because of jenkins dependency java so am installing java-17 version.
 
 - so am collecting jenkins.io there are two repos am collecting there.
 
@@ -31,6 +31,7 @@
 - here am taking two files .
 
    1 . pom.xml
+  
    2 . src/main/java/HelloWorld.java .
 
 - am taking java project source code hello world .
@@ -53,7 +54,7 @@
 
 - so my build is successful and also checks the Console Output .
 
-- and target folder also created and inside the target folder jar file is created .
+- and target folder also created and inside the target folder a .jar file is created .
 
 - java/Maven projects deployed in TOMCAT application server .
 
@@ -62,3 +63,5 @@
 - Artifacts means war, ear, jar files .
 
 - cd /var/lib/jenkins - jenkins default path .
+
+- And also am taken all screenshots of console output, build success, configure build steps and paste it in my github repository .
