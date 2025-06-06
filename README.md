@@ -26,4 +26,9 @@
 
 - After i will give some credentials to login jenkins dashboard .
 
-- Now am creating a New Repository and the Repository_Name is 
+- Now am creating a New Repository and the Repository_Name : hello-java-maven .
+
+- here am taking two files .
+
+   1 . pom.xml
+   2 . src/main/java/
