@@ -52,3 +52,9 @@
 - save and build the job .
 
 - so my build is successful and also checks the Console Output .
+
+- and target folder also created and inside the target folder jar file is created .
+
+- java/Maven projects deployed in TOMCAT application server .
+
+- And artifacts stored in NEXUS REPOSITORY .
