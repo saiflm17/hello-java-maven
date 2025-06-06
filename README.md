@@ -31,4 +31,24 @@
 - here am taking two files .
 
    1 . pom.xml
-   2 . src/main/java/
+   2 . src/main/java/HelloWorld.java .
+
+- am taking java project source code hello world .
+
+- After i Came jenkins dashboard .
+
+- Now am creating a New Job and Job_Name : deployment . am selecting a FreeStyle Project.
+
+- Afetr Go to manage jenkins 🡢 Global Tool Configuration 🡢 Add Maven 🡢 Name: mymaven   version : 3.8.6 .
+
+- Now am configure to Job .
+
+- select the job 🡢 go to configure 🡢 select Git and give repository_url 🡢 branch : main .
+
+- After in Build Section , select : Invoke top-level Maven targets .
+
+- Name : mymaven  ,  GOAL : clean package .
+
+- save and build the job .
+
+- so my build is successful and also checks the Console Output .
