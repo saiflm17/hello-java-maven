@@ -60,3 +60,5 @@
 - And artifacts stored in NEXUS REPOSITORY .
 
 - Artifacts means war, ear, jar files .
+
+- cd /var/lib/jenkins - jenkins default path .
