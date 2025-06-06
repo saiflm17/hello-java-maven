@@ -6,6 +6,24 @@
 
 - COMMAND : sudo -i - To change the root user .
 
-- Now am installing a java by using command .
+- #STEP-3:- am installing jenkins. so jenkins before am installing java-17 version because of jenkins dependency java so am installing java-17 version.
 
-- COMMAND : yum install java-17
+- so am collecting jenkins.io there are two repos am collecting there.
+
+- COMMAND: yum install java-17-amazon-corretto -y.
+
+- COMMAND: yum install jenkins -y.
+
+- so now actually jenkins it is a service so we have to start the jenkins service.
+
+- COMMAND: systemctl start jenkins - To start the jenkins service.
+
+- COMMAND: systemctl status jenkins - To check the status of the jenkins service.
+
+- COMMAND: yum install git -y .
+
+- Now am Accessing jenkins dashboard with publicIP:8080 . And 8080 is a jenkins port number .
+
+- After i will give some credentials to login jenkins dashboard .
+
+- Now am creating a New Repository and the Repository_Name is 
